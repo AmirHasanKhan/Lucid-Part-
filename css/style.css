@@ -1,0 +1,215 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*Lucid home page start*/
+/*header-section code start*/
+.header-section {
+	width: 100%;
+	position: relative;
+	background: url("../images/banner.jpg") center top no-repeat;
+	border: 1px solid black;
+	background-size: cover;
+	height: 85vh;
+
+}
+.header-section-layer {
+	background-color: rgba(22,21,27,0.9);
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.header-section .main-menu{
+	width: 100%;
+}
+.header-section .main-menu .bg-light{
+	background: transparent!important; 
+}
+.header-section .main-menu .navbar-nav {
+	padding-left: 15px;
+	font-weight: 15px;
+
+}
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+    background: url(../images/Hover.png) center bottom no-repeat;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: : 600;
+    font-size: 14px;
+    margin: 0px 0px 0px 15px;	
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus {
+	color: #fff;
+    background: url(../images/Hover.png) center bottom no-repeat;
+}
+
+.header-section .banner-section {
+	height: 100%;
+	padding: 120px 0px;
+}
+.header-section .banner-section h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+	color: #008ed6;
+	letter-spacing: 3px;
+}
+.header-section .banner-section h1 {
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 45px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.header-section .banner-section p {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #7f7f7f;
+	margin-bottom: 25px;
+}
+.inner-btn {
+	width: 100%;
+	margin-top: 40px;
+}
+.inner-btn .btn-primary {
+	margin-right: 10px;
+	padding: 12px 40px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus {
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+.inner-btn .btn-light { 
+	padding: 12px 40px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	transition: 1s;
+	
+}
+.inner-btn .btn-light:hover, .inner-btn .btn-light:focus {
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #fff;
+}
+.header-section .banner-section .mobile {
+	width: 130%;
+	height: 837px;
+	right: 30%;
+}
+ 
+
+/*header-section code start*/
+/*global css for all sections title design start*/
+.title h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+	color: #008ed6;
+	letter-spacing: 3px;
+}
+.title h1 {
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 45px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+/*global css for all sections title design end*/
+
+/*Feature section start*/
+.feature {
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature {
+	width: 100%;
+	padding: 20px 20px;
+	text-align: center;
+}
+.icon-box {
+	width: 100%;
+	padding: 15px 0px;
+}
+.feature .inner-feature .icon-box .fa{
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align : center;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	border-radius: 50%;
+	color: #008ed6;
+	font-size: 22px;
+}
+.inner-feature h4 {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #000;
+}
+.inner-feature p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #7f7f7f;
+	margin-bottom: 25px;
+}
+/*Feature section end*/
+
+.about-beauty {
+	width: 100%;
+	padding: 80px 2px;
+	border-top: 1px solid #eee;
+}
+.about-beauty .title {
+	margin: 50px 0px;
+}
+.about-beauty .content{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+}
+.about-beauty .list-para {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #000;
+}
+.about-beauty .list-para img {
+	margin-right: 10px;
+}
